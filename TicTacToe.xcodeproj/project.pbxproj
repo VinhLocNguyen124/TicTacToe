@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8407696124DA9E470026A9AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8407696024DA9E470026A9AB /* GoogleService-Info.plist */; };
+		8407696324DAA3A60026A9AB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407696224DAA3A60026A9AB /* HomeViewController.swift */; };
+		8407696524DAADEC0026A9AB /* OnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407696424DAADEC0026A9AB /* OnlineViewController.swift */; };
 		843BF2B424D8F5EC00679350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BF2B324D8F5EC00679350 /* AppDelegate.swift */; };
 		843BF2B624D8F5EC00679350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BF2B524D8F5EC00679350 /* ViewController.swift */; };
 		843BF2B924D8F5EC00679350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843BF2B724D8F5EC00679350 /* Main.storyboard */; };
 		843BF2BC24D8F5EC00679350 /* TicTacToe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843BF2BA24D8F5EC00679350 /* TicTacToe.xcdatamodeld */; };
 		843BF2BE24D8F5EE00679350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843BF2BD24D8F5EE00679350 /* Assets.xcassets */; };
 		843BF2C124D8F5EE00679350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843BF2BF24D8F5EE00679350 /* LaunchScreen.storyboard */; };
+		843BF2CD24D92F3100679350 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BF2CC24D92F3100679350 /* SoundManager.swift */; };
+		843BF2D324D92FE900679350 /* dingwrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 843BF2CF24D92FE900679350 /* dingwrong.wav */; };
+		843BF2D424D92FE900679350 /* cardflip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 843BF2D024D92FE900679350 /* cardflip.wav */; };
+		843BF2D524D92FE900679350 /* shuffle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 843BF2D124D92FE900679350 /* shuffle.wav */; };
+		843BF2D624D92FE900679350 /* dingcorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 843BF2D224D92FE900679350 /* dingcorrect.wav */; };
+		843BF2D924D9325300679350 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843BF2D824D9325300679350 /* AVFoundation.framework */; };
+		843BF2DD24D949BC00679350 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 843BF2DC24D949BC00679350 /* click.wav */; };
+		843BF2DF24D94A6000679350 /* winning.wav in Resources */ = {isa = PBXBuildFile; fileRef = 843BF2DE24D94A6000679350 /* winning.wav */; };
+		845880FF24DCEBE4002451C0 /* ListRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845880FE24DCEBE4002451C0 /* ListRoomViewController.swift */; };
+		8458810124DCED36002451C0 /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458810024DCED36002451C0 /* RoomTableViewCell.swift */; };
+		8467601524DBB0CB001BAC9B /* CreateRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467601424DBB0CB001BAC9B /* CreateRoomViewController.swift */; };
+		8467601724DBDA86001BAC9B /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467601624DBDA86001BAC9B /* WellcomeViewController.swift */; };
+		8467601A24DBFBF9001BAC9B /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467601924DBFBF9001BAC9B /* DataStructure.swift */; };
+		846D164D24E29F6A00073E50 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D164C24E29F6A00073E50 /* ChatRoomViewController.swift */; };
+		846D164F24E2A30B00073E50 /* ChatRoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D164E24E2A30B00073E50 /* ChatRoomTableViewCell.swift */; };
+		88186452B0ACAABF207BB547 /* Pods_TicTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CBC8AA2284F0BDA930143C /* Pods_TicTacToe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30CBC8AA2284F0BDA930143C /* Pods_TicTacToe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTacToe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8407696024DA9E470026A9AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8407696224DAA3A60026A9AB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8407696424DAADEC0026A9AB /* OnlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineViewController.swift; sourceTree = "<group>"; };
 		843BF2B024D8F5EC00679350 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843BF2B324D8F5EC00679350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843BF2B524D8F5EC00679350 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +47,23 @@
 		843BF2BD24D8F5EE00679350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843BF2C024D8F5EE00679350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843BF2C224D8F5EE00679350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843BF2CC24D92F3100679350 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		843BF2CF24D92FE900679350 /* dingwrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingwrong.wav; sourceTree = "<group>"; };
+		843BF2D024D92FE900679350 /* cardflip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cardflip.wav; sourceTree = "<group>"; };
+		843BF2D124D92FE900679350 /* shuffle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shuffle.wav; sourceTree = "<group>"; };
+		843BF2D224D92FE900679350 /* dingcorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingcorrect.wav; sourceTree = "<group>"; };
+		843BF2D824D9325300679350 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		843BF2DC24D949BC00679350 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		843BF2DE24D94A6000679350 /* winning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = winning.wav; sourceTree = "<group>"; };
+		845880FE24DCEBE4002451C0 /* ListRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomViewController.swift; sourceTree = "<group>"; };
+		8458810024DCED36002451C0 /* RoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableViewCell.swift; sourceTree = "<group>"; };
+		8467601424DBB0CB001BAC9B /* CreateRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoomViewController.swift; sourceTree = "<group>"; };
+		8467601624DBDA86001BAC9B /* WellcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeViewController.swift; sourceTree = "<group>"; };
+		8467601924DBFBF9001BAC9B /* DataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
+		846D164C24E29F6A00073E50 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		846D164E24E2A30B00073E50 /* ChatRoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomTableViewCell.swift; sourceTree = "<group>"; };
+		C5149D4A0703ACFD92331879 /* Pods-TicTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.release.xcconfig"; path = "Target Support Files/Pods-TicTacToe/Pods-TicTacToe.release.xcconfig"; sourceTree = "<group>"; };
+		D4CA77150CC135E46BFA04BF /* Pods-TicTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.debug.xcconfig"; path = "Target Support Files/Pods-TicTacToe/Pods-TicTacToe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843BF2D924D9325300679350 /* AVFoundation.framework in Frameworks */,
+				88186452B0ACAABF207BB547 /* Pods_TicTacToe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76A505EF19DD3109A60AF440 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4CA77150CC135E46BFA04BF /* Pods-TicTacToe.debug.xcconfig */,
+				C5149D4A0703ACFD92331879 /* Pods-TicTacToe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		843BF2A724D8F5EC00679350 = {
 			isa = PBXGroup;
 			children = (
 				843BF2B224D8F5EC00679350 /* TicTacToe */,
 				843BF2B124D8F5EC00679350 /* Products */,
+				843BF2D724D9325200679350 /* Frameworks */,
+				76A505EF19DD3109A60AF440 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +109,57 @@
 		843BF2B224D8F5EC00679350 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				8467601824DBFBD8001BAC9B /* DataStructure */,
+				843BF2CE24D92F9700679350 /* Sound */,
 				843BF2B324D8F5EC00679350 /* AppDelegate.swift */,
 				843BF2B524D8F5EC00679350 /* ViewController.swift */,
+				8467601424DBB0CB001BAC9B /* CreateRoomViewController.swift */,
+				8467601624DBDA86001BAC9B /* WellcomeViewController.swift */,
+				846D164E24E2A30B00073E50 /* ChatRoomTableViewCell.swift */,
+				846D164C24E29F6A00073E50 /* ChatRoomViewController.swift */,
+				8458810024DCED36002451C0 /* RoomTableViewCell.swift */,
+				845880FE24DCEBE4002451C0 /* ListRoomViewController.swift */,
+				8407696424DAADEC0026A9AB /* OnlineViewController.swift */,
+				8407696224DAA3A60026A9AB /* HomeViewController.swift */,
 				843BF2B724D8F5EC00679350 /* Main.storyboard */,
 				843BF2BD24D8F5EE00679350 /* Assets.xcassets */,
 				843BF2BF24D8F5EE00679350 /* LaunchScreen.storyboard */,
 				843BF2C224D8F5EE00679350 /* Info.plist */,
 				843BF2BA24D8F5EC00679350 /* TicTacToe.xcdatamodeld */,
+				843BF2CC24D92F3100679350 /* SoundManager.swift */,
+				8407696024DA9E470026A9AB /* GoogleService-Info.plist */,
 			);
 			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		843BF2CE24D92F9700679350 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				843BF2DE24D94A6000679350 /* winning.wav */,
+				843BF2DC24D949BC00679350 /* click.wav */,
+				843BF2D024D92FE900679350 /* cardflip.wav */,
+				843BF2D224D92FE900679350 /* dingcorrect.wav */,
+				843BF2CF24D92FE900679350 /* dingwrong.wav */,
+				843BF2D124D92FE900679350 /* shuffle.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		843BF2D724D9325200679350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843BF2D824D9325300679350 /* AVFoundation.framework */,
+				30CBC8AA2284F0BDA930143C /* Pods_TicTacToe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8467601824DBFBD8001BAC9B /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				8467601924DBFBF9001BAC9B /* DataStructure.swift */,
+			);
+			path = DataStructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843BF2C524D8F5EE00679350 /* Build configuration list for PBXNativeTarget "TicTacToe" */;
 			buildPhases = (
+				869BEA93F74BB9B804480099 /* [CP] Check Pods Manifest.lock */,
 				843BF2AC24D8F5EC00679350 /* Sources */,
 				843BF2AD24D8F5EC00679350 /* Frameworks */,
 				843BF2AE24D8F5EC00679350 /* Resources */,
+				9BABCF8CBA2A9F1A0944FA1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +222,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843BF2D524D92FE900679350 /* shuffle.wav in Resources */,
+				843BF2D324D92FE900679350 /* dingwrong.wav in Resources */,
 				843BF2C124D8F5EE00679350 /* LaunchScreen.storyboard in Resources */,
 				843BF2BE24D8F5EE00679350 /* Assets.xcassets in Resources */,
+				843BF2DF24D94A6000679350 /* winning.wav in Resources */,
 				843BF2B924D8F5EC00679350 /* Main.storyboard in Resources */,
+				843BF2D624D92FE900679350 /* dingcorrect.wav in Resources */,
+				8407696124DA9E470026A9AB /* GoogleService-Info.plist in Resources */,
+				843BF2D424D92FE900679350 /* cardflip.wav in Resources */,
+				843BF2DD24D949BC00679350 /* click.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		869BEA93F74BB9B804480099 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TicTacToe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BABCF8CBA2A9F1A0944FA1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TicTacToe/Pods-TicTacToe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		843BF2AC24D8F5EC00679350 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8407696324DAA3A60026A9AB /* HomeViewController.swift in Sources */,
 				843BF2BC24D8F5EC00679350 /* TicTacToe.xcdatamodeld in Sources */,
+				843BF2CD24D92F3100679350 /* SoundManager.swift in Sources */,
+				8467601A24DBFBF9001BAC9B /* DataStructure.swift in Sources */,
+				846D164F24E2A30B00073E50 /* ChatRoomTableViewCell.swift in Sources */,
+				8467601524DBB0CB001BAC9B /* CreateRoomViewController.swift in Sources */,
+				845880FF24DCEBE4002451C0 /* ListRoomViewController.swift in Sources */,
+				8407696524DAADEC0026A9AB /* OnlineViewController.swift in Sources */,
+				8458810124DCED36002451C0 /* RoomTableViewCell.swift in Sources */,
 				843BF2B624D8F5EC00679350 /* ViewController.swift in Sources */,
+				8467601724DBDA86001BAC9B /* WellcomeViewController.swift in Sources */,
 				843BF2B424D8F5EC00679350 /* AppDelegate.swift in Sources */,
+				846D164D24E29F6A00073E50 /* ChatRoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +428,7 @@
 		};
 		843BF2C624D8F5EE00679350 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CA77150CC135E46BFA04BF /* Pods-TicTacToe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +446,7 @@
 		};
 		843BF2C724D8F5EE00679350 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5149D4A0703ACFD92331879 /* Pods-TicTacToe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
